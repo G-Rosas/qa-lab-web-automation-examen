@@ -20,7 +20,7 @@ public class DriverManager {
     public void setUp(){
         //Se ejecutará Automáticamente
         System.setProperty("webdriver.http.factory", "jdk-http-client");
-        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\Trabajo\\SharkWeb_Digital\\2 - Giancarlo Docs\\NTT DATA - Postulacion\\Pruebas Automatizadas\\web\\qa-lab-web-automation-examen\\drivers\\chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
