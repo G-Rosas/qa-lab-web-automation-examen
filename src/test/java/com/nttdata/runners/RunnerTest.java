@@ -13,5 +13,5 @@ import org.junit.runner.RunWith;
         glue = "com.nttdata",
         tags = "@test"
 )
-public class CucumberTestSuite {
+public class RunnerTest {
 }
